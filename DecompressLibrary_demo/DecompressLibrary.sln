@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DecompressLibrary", "DecompressLibrary\DecompressLibrary.vcproj", "{D808BFED-0D03-4D87-B836-D457C8AD874F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDlg", "TestDlg\TestDlg.vcproj", "{10F673CA-C7A5-4C39-8D4B-9316102AC27D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D808BFED-0D03-4D87-B836-D457C8AD874F} = {D808BFED-0D03-4D87-B836-D457C8AD874F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D808BFED-0D03-4D87-B836-D457C8AD874F}.Debug.ActiveCfg = Debug|Win32
+		{D808BFED-0D03-4D87-B836-D457C8AD874F}.Debug.Build.0 = Debug|Win32
+		{D808BFED-0D03-4D87-B836-D457C8AD874F}.Release.ActiveCfg = Release|Win32
+		{D808BFED-0D03-4D87-B836-D457C8AD874F}.Release.Build.0 = Release|Win32
+		{10F673CA-C7A5-4C39-8D4B-9316102AC27D}.Debug.ActiveCfg = Debug|Win32
+		{10F673CA-C7A5-4C39-8D4B-9316102AC27D}.Debug.Build.0 = Debug|Win32
+		{10F673CA-C7A5-4C39-8D4B-9316102AC27D}.Release.ActiveCfg = Release|Win32
+		{10F673CA-C7A5-4C39-8D4B-9316102AC27D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
